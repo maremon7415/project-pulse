@@ -237,8 +237,9 @@ projectpulse/
 1. Push your code to GitHub
 2. Connect your repository to Vercel
 3. Add environment variables in Vercel dashboard:
-   - `MONGODB_URI`
-   - `JWT_SECRET`
+   `MONGODB_URI=your_mongodb_connection_string`
+   `JWT_SECRET=your_jwt_secret_key`
+   `NEXT_PUBLIC_BASE_URL=http://localhost:3000`
 4. Deploy
 
 ### Other Platforms

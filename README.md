@@ -39,6 +39,23 @@ The system calculates a Project Health Score (0-100) using the following formula
 - **Styling**: Tailwind CSS
 - **UI Components**: shadcn/ui
 
+## Backend Architecture
+
+This project uses **Next.js App Router API Routes** as the backend.
+No separate Express server is used. All authentication, business logic,
+and database operations are handled through Next.js server-side APIs.
+
+## Live Demo
+
+Live application URL:
+https://project-pulse-pi.vercel.app
+
+## Internship Submission
+
+This project was developed as part of a **Full Stack Internship Assignment**
+to demonstrate real-world project health tracking, role-based access control,
+and decision-support dashboards used in professional software teams.
+
 ## Getting Started
 
 ### Prerequisites
@@ -60,6 +77,7 @@ The system calculates a Project Health Score (0-100) using the following formula
    ```bash
    MONGODB_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret_key
+   NEXT_PUBLIC_BASE_URL=http://localhost:3000
    ```
 
 4. Seed the database:
