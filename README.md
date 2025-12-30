@@ -50,6 +50,15 @@ and database operations are handled through Next.js server-side APIs.
 Live application URL:
 https://project-pulse-pi.vercel.app
 
+## Demo Video
+
+Due to time constraints, a demo video could not be recorded at the time of submission.
+I sincerely apologize for this limitation.
+
+The application is fully deployed and functional, and all core features described
+in this README can be verified directly through the live demo using the provided
+credentials. I am happy to provide a demo video or live walkthrough if required.
+
 ## Internship Submission
 
 This project was developed as part of a **Full Stack Internship Assignment**
